@@ -1,4 +1,27 @@
-#map { height: 180px; }
-h1 {
-    color: red;
+/*---------Page size declaration ----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/*---------Map division  ----*/
+#map { 
+    width: 100%;
+    height: 100vh; 
+}
+
+/*---------Map Marker Icons ----*/
+.fa-tree {
+    color: green;
+    
+}
+.fa-user-graduate {
+    color: blue;
+}
+
+.fa-heartbeat {
+    color: rgb(218, 66, 20);
 }

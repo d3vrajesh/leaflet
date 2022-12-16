@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leaflet Map</title>
 
-    <!---------Leaflet asssets-->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-     crossorigin=""/>
-     <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
- integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
- crossorigin=""></script>
-<!---------Own Assets-->
- <link rel="stylesheet" href="style.css">
-<script src="index.js"></script>
+    <!---------Font Awsome CDN ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        crossorigin="anonymous" />
+    <!----Leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+    <!---------Own CSS file linked-->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <h1>Leaflet Map Sample</h1>
-    <div id="map"></div>
+ <!-- Map divison  -->
+    <div id="map"></div> 
+
+    <!-- Leaf let JS Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <!---------Own JS file linked -->
+    <script src="index.js"></script>
+
 </body>
+
 </html>
