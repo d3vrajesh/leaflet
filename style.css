@@ -14,8 +14,11 @@
 }
 
 /*---------Map Marker Icons ----*/
-.fa-tree {
+.fa-wheat {
     color: green;
+    stroke-width: 2px;
+    font-size: 20px;
+   
     
 }
 .fa-user-graduate {
@@ -24,4 +27,10 @@
 
 .fa-heartbeat {
     color: rgb(218, 66, 20);
+}
+
+.leaflet-popup-content img {
+    width: 100%;
+    object-fit: cover;
+
 }
