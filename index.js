@@ -1,5 +1,5 @@
 //--Map initialization
-var map = L.map('map').setView([23.839369, 79.527440], 5);
+var map = L.map('map').setView([23.839369, 79.527440], 4);
 
 
 //--Tile layer providers -- https://leaflet-extras.github.io/leaflet-providers/preview/ 
@@ -146,7 +146,7 @@ var overlayMaps = {
 
 };
 
-L.control.layers(baseMaps, overlayMaps, { collapsed: true }).addTo(map);
+L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
 
 
 
