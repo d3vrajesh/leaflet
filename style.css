@@ -8,9 +8,9 @@
 }
 
 /*---------Map division  ----*/
-#map { 
+#map {
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
 }
 
 /*---------Map Marker Icons ----*/
@@ -18,9 +18,10 @@
     color: green;
     stroke-width: 2px;
     font-size: 20px;
-   
-    
+
+
 }
+
 .fa-user-graduate {
     color: blue;
 }
@@ -32,5 +33,16 @@
 .leaflet-popup-content img {
     width: 100%;
     object-fit: cover;
+
+}
+
+.leaflet-popup-content {
+    width: 270px;
+    border: 0;
+    margin: 0px 0px 10px 0px;
+}
+
+.leaflet-popup-content p {
+    padding: 5px;
 
 }
