@@ -18,8 +18,6 @@
     color: green;
     stroke-width: 2px;
     font-size: 20px;
-
-
 }
 
 .fa-user-graduate {
@@ -44,5 +42,6 @@
 
 .leaflet-popup-content p {
     padding: 5px;
+
 
 }
