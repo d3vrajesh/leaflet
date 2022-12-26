@@ -146,7 +146,29 @@ var overlayMaps = {
 
 };
 
-L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+//
+
+L.control.layers(baseMaps, overlayMaps, { position: 'bottomright', collapsed: false }).addTo(map);
 
 
+//--Bottom - leftside watermark 
+L.Control.Watermark = L.Control.extend({
+  onAdd: function (map) {
+    var img = L.DomUtil.create('img');
+
+    img.src = '/images/Logo-keystone.png';
+    img.style.width = '50px';
+    return img;
+  },
+
+  onRemove: function (map) {
+    // Nothing to do here
+  }
+});
+
+L.control.watermark = function (opts) {
+  return new L.Control.Watermark(opts);
+}
+
+L.control.watermark({ position: 'bottomleft' }).addTo(map);
 
